@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Recipe App</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Подбор рецептов</h1>
+
+<h3>Выберите ингредиенты:</h3>
+
+<div id="ingredients">
+  <label><input type="checkbox" value="egg"> Яйцо</label>
+  <label><input type="checkbox" value="cheese"> Сыр</label>
+  <label><input type="checkbox" value="bread"> Хлеб</label>
+  <label><input type="checkbox" value="tomato"> Помидор</label>
+</div>
+
+<button onclick="findRecipes()">Найти рецепты</button>
+
+<h3>Подходящие рецепты:</h3>
+<div id="results"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
